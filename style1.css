@@ -1,0 +1,104 @@
+body {
+    height: auto;
+    background-color: rgb(248, 237, 227);
+    background-image: linear-gradient(rgb(248, 237, 227),rgb(223, 177, 166));
+}
+.abc {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 520px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    color: rgb(76, 58, 81);
+    font-weight: bold;
+    font-family: monospace;
+}
+img {
+    width: 180px;
+    height:200px;
+}
+.image{
+    display: flex;
+}
+.personal-information {
+    font-size: 18px;
+}
+.birth-date {
+    display: flex;
+}
+.date {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.text {
+    display: flex;
+}
+.add-list {
+    margin-left: 5px;
+}
+.language {
+    margin-top: 20px;
+}
+.level {
+    margin-top: 10px;
+}
+.salary {
+    margin-top:  20px; ;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+}
+.save {
+    margin-top: 5px;
+}
+ul.dashed {
+    list-style-type:none ;
+}
+ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+.save-button {
+    border-radius: 15px;
+    border-color: rgb(178, 80, 104);
+    border-style: solid;
+    background-color: rgb(223, 211, 195);
+    cursor: pointer;
+    color: rgb(76, 58, 81);
+}
+.add-button {
+    background-color: rgb(223, 211, 195);
+    border-color: rgb(178, 80, 104);
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: rgb(76, 58, 81);
+}
+img{
+    transition: 2s;
+}
+.rotate-pht:hover{
+    transform: rotate(720deg)
+}
+.first-row:hover{
+    background-color: rgb(151, 67, 67);
+}
+.position {
+    font-family: 'Alkalami', serif;
+}
+   
